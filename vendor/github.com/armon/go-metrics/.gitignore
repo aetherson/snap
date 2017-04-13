@@ -20,27 +20,5 @@ _cgo_export.*
 _testmain.go
 
 *.exe
-*.test
-.idea
-tmp/
-*.tmp
-scratch/
-*.swp
-profile.cov
-gin-bin
-tags
-.vscode/
-# vendor/
 
-# we don't vendor godep _workspace
-**/Godeps/_workspace/**
-
-# OSX stuff
-.DS_Store
-
-*.cov
-
-# build and release artifacts
-build/
-s3/
-release/
+/metrics.out
